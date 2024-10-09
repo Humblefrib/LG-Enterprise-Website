@@ -43,6 +43,8 @@ nav ul li {
     padding: 0 10px;
 }
 
+nav ul li div:hover { text-decoration: underline; }
+
 .logoImg img { width: 80px; }
 
 .hamburgerMenu {
@@ -76,6 +78,8 @@ nav ul li {
     margin-top: 80px;
 }
 
+.navSideBarLinks div:hover { text-decoration: underline; }
+
 .navSideBarFooter {
     display: flex;
     flex-direction: column;
@@ -83,9 +87,7 @@ nav ul li {
     font-size: 0.6em;
 }
 
-body.showCart .navSideBar {
-    right: 0;
-}
+body.showCart .navSideBar { right: 0; }
 
 #section0 { margin-bottom: var(--sectionMargin); }
 
